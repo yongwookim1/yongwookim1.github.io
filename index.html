@@ -35,7 +35,8 @@
   h1 { font-size: 32px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
   .role { color: var(--muted); margin-top: 6px; }
   .top { display: flex; align-items: center; gap: 20px; }
-  .avatar { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+  .avatar { width: 180px; height: 120px; border-radius: 12px; object-fit: cover; flex-shrink: 0; }
+  @media (max-width: 560px) { .top { flex-direction: column; align-items: flex-start; } .avatar { width: 100%; height: auto; aspect-ratio: 3 / 2; } }
   .bio { margin-top: 24px; }
   .bio p + p { margin-top: 12px; }
   .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: 15px; }
