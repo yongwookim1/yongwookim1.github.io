@@ -34,6 +34,8 @@
   header { margin-bottom: 64px; }
   h1 { font-size: 32px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
   .role { color: var(--muted); margin-top: 6px; }
+  .top { display: flex; align-items: center; gap: 20px; }
+  .avatar { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
   .bio { margin-top: 24px; }
   .bio p + p { margin-top: 12px; }
   .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: 15px; }
@@ -74,8 +76,13 @@
 <main>
 
   <header>
-    <h1>Yongwoo Kim</h1>
-    <p class="role">Ph.D. Student in Artificial Intelligence · Korea University</p>
+    <div class="top">
+      <img class="avatar" src="profile.jpg" alt="Yongwoo Kim">
+      <div>
+        <h1>Yongwoo Kim</h1>
+        <p class="role">Ph.D. Student in Artificial Intelligence · Korea University</p>
+      </div>
+    </div>
     <div class="bio">
       <p>I am a Ph.D. student at Korea University, advised by
         <a href="https://www.linkedin.com/in/donghyun-kim-60140b104/" target="_blank" rel="noopener">Prof. Donghyun Kim</a>.
