@@ -49,8 +49,8 @@
     font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
     color: var(--muted); padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 20px;
   }
-  .row { display: grid; grid-template-columns: 120px 1fr; gap: 16px; padding: 6px 0; }
-  .row .when { color: var(--muted); font-size: 14px; padding-top: 2px; font-variant-numeric: tabular-nums; }
+  .row { display: grid; grid-template-columns: 150px 1fr; gap: 16px; padding: 6px 0; }
+  .row .when { color: var(--muted); font-size: 14px; padding-top: 2px; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .row .title { font-weight: 500; }
   .row .sub { color: var(--muted); font-size: 15px; }
 
@@ -60,7 +60,7 @@
   .pub .title { font-weight: 500; }
   .pub .authors { font-size: 15px; margin-top: 4px; }
   .pub .authors b { font-weight: 600; }
-  .pub .venue { font-size: 15px; color: var(--muted); margin-top: 2px; }
+  .pub .venue { font-size: 14px; color: var(--muted); margin-bottom: 2px; }
   .pub .venue em { font-style: normal; color: var(--accent); font-weight: 500; }
   .pub .plinks { display: flex; gap: 14px; font-size: 14px; margin-top: 6px; color: var(--muted); }
   .note { font-size: 14px; color: var(--muted); margin-top: 8px; }
@@ -105,30 +105,30 @@
     <h2>Publications</h2>
 
     <div class="pub">
+      <div class="venue"><em>NeurIPS 2026</em></div>
       <div class="title">Consistency-Preserving Concept Erasure via Unsafe–Safe Pairing and Directional Fisher-weighted Adaptation</div>
       <div class="authors"><b>Yongwoo Kim*</b>, Sungmin Cha*, Hyunsoo Kim, Jaewon Lee, Donghyun Kim</div>
-      <div class="venue"><em>NeurIPS 2026</em></div>
       <div class="plinks"><a href="https://arxiv.org/abs/2602.05339" target="_blank" rel="noopener">arXiv</a></div>
     </div>
 
     <div class="pub">
+      <div class="venue"><em>Findings of EMNLP 2026</em></div>
       <div class="title">KSAFE-MM: A Multimodal Safety Benchmark via Localized Contextualization for Korean Cultural Risks</div>
       <div class="authors"><b>Yongwoo Kim*</b>, Sojung An*, Yunjin Park, Jungwon Yoon, Dujin Lee, HyunBeom Cho, Jaewon Lee, Wonhyuk Lee, Youngchol Kim, JeongYeop Kim, Donghyun Kim</div>
-      <div class="venue"><em>Findings of EMNLP 2026</em></div>
       <div class="plinks"><a href="https://arxiv.org/abs/2605.28013" target="_blank" rel="noopener">arXiv</a></div>
     </div>
 
     <div class="pub">
+      <div class="venue"><em>arXiv 2026</em></div>
       <div class="title">Erase at the Core: Representation Unlearning for Machine Unlearning</div>
       <div class="authors">Jaewon Lee, <b>Yongwoo Kim</b>, Donghyun Kim</div>
-      <div class="venue"><em>arXiv 2026</em></div>
       <div class="plinks"><a href="https://arxiv.org/abs/2602.05375" target="_blank" rel="noopener">arXiv</a></div>
     </div>
 
     <div class="pub">
+      <div class="venue"><em>EAAI</em></div>
       <div class="title">Are We Truly Forgetting? A Critical Re-examination of Machine Unlearning Evaluation Protocols</div>
       <div class="authors"><b>Yongwoo Kim*</b>, Sungmin Cha*, Donghyun Kim</div>
-      <div class="venue"><em>EAAI</em></div>
       <div class="plinks"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197626000667" target="_blank" rel="noopener">Paper</a><a href="https://arxiv.org/abs/2503.06991" target="_blank" rel="noopener">arXiv</a></div>
     </div>
 
